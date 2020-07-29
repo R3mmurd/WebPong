@@ -1,0 +1,68 @@
+body {
+  background-color: black;
+  color: #d4d4d4;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  margin-top: 0
+}
+
+.field {
+  position: relative;
+  margin: auto;
+  margin-top: 0px;
+  border: 2px solid #d4d4d4;
+  width: 1280px;
+  height: 720px;
+}
+
+.ball {
+  width: 12px;
+  height: 12px;
+  background-color: #d4d4d4;
+  float:none;
+  position: absolute;
+}
+
+.paddle {
+  width: 15px;
+  height: 60px;
+  background-color: #d4d4d4;
+  position: absolute;
+}
+
+.score {
+  font-size: 8em;
+  position: absolute;
+  top: 200px;
+}
+
+#score1 {
+  left: 450px;
+}
+
+#score2 {
+  right: 450px;
+}
+
+#btn-cont {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#btn {
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  font-size: 2em;
+}
+
+#message {
+  position: absolute;
+  text-align: center;
+  width: 1280px;
+  top: 100px;
+  font-size: 3em;
+}
